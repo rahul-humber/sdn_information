@@ -1,0 +1,87 @@
+{
+    "port_stats": {
+        "4": [
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 0, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 0, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 901000000, 
+                "collisions": 0, 
+                "duration_sec": 5482, 
+                "rx_errors": 0, 
+                "tx_bytes": 0, 
+                "rx_dropped": 70, 
+                "tx_packets": 0, 
+                "port_no": "LOCAL"
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 18, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 1436, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 914000000, 
+                "collisions": 0, 
+                "duration_sec": 5482, 
+                "rx_errors": 0, 
+                "tx_bytes": 15297, 
+                "rx_dropped": 0, 
+                "tx_packets": 104, 
+                "port_no": 1
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 89, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 13086, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 913000000, 
+                "collisions": 0, 
+                "duration_sec": 5482, 
+                "rx_errors": 0, 
+                "tx_bytes": 7864, 
+                "rx_dropped": 0, 
+                "tx_packets": 47, 
+                "port_no": 2
+            }
+        ]
+    }, 
+    "switch_flows": {
+        "4": [
+            {
+                "packet_count": 70, 
+                "hard_timeout": 0, 
+                "byte_count": 8323, 
+                "duration_sec": 5443, 
+                "actions": [
+                    "OUTPUT:CONTROLLER"
+                ], 
+                "duration_nsec": 187000000, 
+                "priority": 0, 
+                "idle_timeout": 0, 
+                "cookie": 0, 
+                "flags": 0, 
+                "length": 80, 
+                "table_id": 0, 
+                "match": {}
+            }
+        ]
+    }, 
+    "switch_desc": {
+        "4": {
+            "dp_desc": "None", 
+            "sw_desc": "2.13.8", 
+            "hw_desc": "Open vSwitch", 
+            "serial_num": "None", 
+            "mfr_desc": "Nicira, Inc."
+        }
+    }
+}
