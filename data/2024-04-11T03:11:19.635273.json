@@ -1,0 +1,104 @@
+{
+    "switch_description": {
+        "2": {
+            "sw_desc": "2.13.8", 
+            "hw_desc": "Open vSwitch", 
+            "dp_desc": "None", 
+            "mfr_desc": "Nicira, Inc.", 
+            "serial_num": "None"
+        }
+    }, 
+    "switch_flows": {
+        "2": [
+            {
+                "priority": 0, 
+                "length": 80, 
+                "hard_timeout": 0, 
+                "byte_count": 19381, 
+                "idle_timeout": 0, 
+                "actions": [
+                    "OUTPUT:CONTROLLER"
+                ], 
+                "duration_nsec": 691000000, 
+                "packet_count": 142, 
+                "duration_sec": 18132, 
+                "cookie": 0, 
+                "flags": 0, 
+                "table_id": 0, 
+                "match": {}
+            }
+        ]
+    }, 
+    "port_stats": {
+        "2": [
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 0, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 0, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 232000000, 
+                "collisions": 0, 
+                "duration_sec": 18136, 
+                "rx_errors": 0, 
+                "tx_bytes": 0, 
+                "rx_dropped": 142, 
+                "tx_packets": 0, 
+                "port_no": "LOCAL"
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 20, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 1556, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 265000000, 
+                "collisions": 0, 
+                "duration_sec": 18136, 
+                "rx_errors": 0, 
+                "tx_bytes": 27019, 
+                "rx_dropped": 0, 
+                "tx_packets": 176, 
+                "port_no": 1
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 59, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 9368, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 265000000, 
+                "collisions": 0, 
+                "duration_sec": 18136, 
+                "rx_errors": 0, 
+                "tx_bytes": 21752, 
+                "rx_dropped": 0, 
+                "tx_packets": 146, 
+                "port_no": 2
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 102, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 15525, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 265000000, 
+                "collisions": 0, 
+                "duration_sec": 18136, 
+                "rx_errors": 0, 
+                "tx_bytes": 15525, 
+                "rx_dropped": 0, 
+                "tx_packets": 102, 
+                "port_no": 3
+            }
+        ]
+    }
+}
