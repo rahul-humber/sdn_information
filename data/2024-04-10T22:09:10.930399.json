@@ -1,0 +1,87 @@
+{
+    "switch_description": {
+        "1": {
+            "sw_desc": "2.13.8", 
+            "hw_desc": "Open vSwitch", 
+            "dp_desc": "None", 
+            "mfr_desc": "Nicira, Inc.", 
+            "serial_num": "None"
+        }
+    }, 
+    "switch_flows": {
+        "1": [
+            {
+                "priority": 0, 
+                "length": 80, 
+                "hard_timeout": 0, 
+                "byte_count": 4044, 
+                "idle_timeout": 0, 
+                "actions": [
+                    "OUTPUT:CONTROLLER"
+                ], 
+                "duration_nsec": 994000000, 
+                "packet_count": 18, 
+                "duration_sec": 3, 
+                "cookie": 0, 
+                "flags": 0, 
+                "table_id": 0, 
+                "match": {}
+            }
+        ]
+    }, 
+    "port_stats": {
+        "1": [
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 0, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 0, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 609000000, 
+                "collisions": 0, 
+                "duration_sec": 7, 
+                "rx_errors": 0, 
+                "tx_bytes": 0, 
+                "rx_dropped": 18, 
+                "tx_packets": 0, 
+                "port_no": "LOCAL"
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 8, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 716, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 657000000, 
+                "collisions": 0, 
+                "duration_sec": 7, 
+                "rx_errors": 0, 
+                "tx_bytes": 8653, 
+                "rx_dropped": 0, 
+                "tx_packets": 39, 
+                "port_no": 1
+            }, 
+            {
+                "rx_over_err": 0, 
+                "tx_dropped": 0, 
+                "rx_packets": 34, 
+                "rx_frame_err": 0, 
+                "rx_bytes": 7555, 
+                "tx_errors": 0, 
+                "rx_crc_err": 0, 
+                "duration_nsec": 657000000, 
+                "collisions": 0, 
+                "duration_sec": 7, 
+                "rx_errors": 0, 
+                "tx_bytes": 4659, 
+                "rx_dropped": 0, 
+                "tx_packets": 22, 
+                "port_no": 2
+            }
+        ]
+    }
+}
